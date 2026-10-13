@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#210E16">
+  <title>Ser, estar y tener | YV Español</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio"><img src="assets/logobranca.png" alt="YV Español"></a>
+    <nav aria-label="Navegación de la clase">
+      <a href="#verbos">Verbos</a><a href="#vocabulario">La mesa</a><a href="#lectura">Lectura</a><a href="#practica">Práctica</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">YV ESPAÑOL · CLASE DE 60 MINUTOS</span>
+        <h1>Ayer, hoy<br>y <em>mañana</em></h1>
+        <p>Una clase para usar <strong>ser</strong>, <strong>estar</strong> y <strong>tener</strong> en presente, pasado y futuro.</p>
+        <a class="primary" href="#identificacion">Empezar la clase <span>↓</span></a>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit orbit-one"><b>SER</b><span>soy · fui · seré</span></div>
+        <div class="orbit orbit-two"><b>ESTAR</b><span>estoy · estuve · estaré</span></div>
+        <div class="orbit orbit-three"><b>TENER</b><span>tengo · tuve · tendré</span></div>
+      </div>
+    </section>
+
+    <form id="lesson-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="1027624e-f586-43ab-bb7e-22c0f93222a0">
+      <input type="hidden" name="subject" value="YV Español — Ser, estar y tener">
+      <input type="hidden" name="from_name" value="YV Español">
+
+      <section class="student" id="identificacion">
+        <label>Nombre del alumno<input type="text" name="nombre" placeholder="Escribe tu nombre" required></label>
+        <label>Fecha<input type="date" name="fecha" required></label>
+      </section>
+
+      <section class="section" id="verbos">
+        <div class="section-heading">
+          <span>01 · PUNTO DE PARTIDA</span>
+          <h2>Tres verbos, tres funciones</h2>
+          <p>Primero, recuerda qué información expresa cada verbo.</p>
+        </div>
+        <div class="uses-grid">
+          <article><span class="number">01</span><h3>SER</h3><p>Identidad, origen, profesión y características.</p><blockquote>Soy brasileña.<br>La mesa es redonda.</blockquote></article>
+          <article><span class="number">02</span><h3>ESTAR</h3><p>Estado, sentimiento y localización.</p><blockquote>Estoy tranquila.<br>Los vasos están en la mesa.</blockquote></article>
+          <article><span class="number">03</span><h3>TENER</h3><p>Posesión, edad y algunas sensaciones.</p><blockquote>Tengo treinta años.<br>Tenemos hambre.</blockquote></article>
+        </div>
+        <aside class="note"><strong>¡Ojo!</strong> Para presentar la existencia de algo usamos <b>hay</b>: <i>En la mesa hay cuatro platos.</i> Después lo localizamos con <b>estar</b>: <i>Los platos están al lado de los vasos.</i></aside>
+      </section>
+
+      <section class="section cream" id="conjugacion">
+        <div class="section-heading dark">
+          <span>02 · CONJUGACIÓN COMPLETA</span>
+          <h2>Presente, pretérito y futuro</h2>
+          <p>Selecciona un verbo para estudiar todas sus formas.</p>
+        </div>
+        <div class="verb-tabs" role="tablist">
+          <button type="button" class="verb-tab active" data-target="ser" role="tab">SER</button>
+          <button type="button" class="verb-tab" data-target="estar" role="tab">ESTAR</button>
+          <button type="button" class="verb-tab" data-target="tener" role="tab">TENER</button>
+        </div>
+        <div id="conjugation-table" class="table-wrap" aria-live="polite"></div>
+        <div class="grammar-notes">
+          <div><b>Pretérito irregular</b><p><strong>estar</strong> usa <i>estuv-</i> y <strong>tener</strong> usa <i>tuv-</i>. Las formas <i>estuvo</i> y <i>tuvo</i> no llevan tilde.</p></div>
+          <div><b>Futuro simple</b><p>Añadimos <i>-é, -ás, -á, -emos, -éis, -án</i>. En <strong>tener</strong>, usamos el radical <i>tendr-</i>.</p></div>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-heading"><span>03 · UNA LÍNEA DEL TIEMPO</span><h2>La misma idea en tres momentos</h2></div>
+        <div class="timeline">
+          <article><small>AYER</small><h3>Pasado</h3><p>Yo <b>estuve</b> en casa.</p><p>Nosotros <b>tuvimos</b> una cena.</p><p>La cena <b>fue</b> especial.</p></article>
+          <article class="today"><small>HOY</small><h3>Presente</h3><p>Yo <b>estoy</b> en casa.</p><p>Nosotros <b>tenemos</b> una cena.</p><p>La cena <b>es</b> especial.</p></article>
+          <article><small>MAÑANA</small><h3>Futuro</h3><p>Yo <b>estaré</b> en casa.</p><p>Nosotros <b>tendremos</b> una cena.</p><p>La cena <b>será</b> especial.</p></article>
+        </div>
+      </section>
+
+      <section class="section cream visual" id="vocabulario">
+        <div class="section-heading dark"><span>04 · VOCABULARIO</span><h2>La mesa, objeto por objeto</h2><p>Pulsa la imagen para ampliarla. Después, escucha y repite las palabras.</p></div>
+        <button type="button" class="poster" id="open-poster"><img src="assets/vocabulario-la-mesa-yv-espanol.png" alt="Infografía del vocabulario de la mesa"></button>
+        <div class="vocab-grid" id="vocab-grid"></div>
+        <div class="difference"><h3>Vaso, taza o copa?</h3><div><p><b>el vaso</b><span>Para agua, zumo o refresco.</span></p><p><b>la taza</b><span>Tiene asa; para café, té o chocolate.</span></p><p><b>la copa</b><span>Tiene pie; normalmente para vino.</span></p></div></div>
+      </section>
+
+      <section class="section" id="lectura">
+        <div class="section-heading"><span>05 · LECTURA</span><h2>Una cena especial</h2><p>Lee el texto e identifica qué sucede ayer, hoy y mañana.</p></div>
+        <article class="reading">
+          <div class="time-label">AYER</div>
+          <p>Ayer <strong>fui</strong> a casa de mi hermana. Ella <strong>estuvo</strong> muy contenta porque celebramos su cumpleaños. Nosotros <strong>tuvimos</strong> una cena especial. En el comedor había una mesa grande con platos, vasos, copas, cuchillos, tenedores y servilletas. La tarta <strong>estuvo</strong> en el centro de la mesa durante la cena.</p>
+          <div class="time-label current">HOY</div>
+          <p>Hoy <strong>soy</strong> la persona responsable de organizar la cocina. <strong>Estoy</strong> en casa y <strong>tengo</strong> bastante trabajo. Ahora la mesa <strong>está</strong> limpia y todos los cubiertos <strong>están</strong> dentro de un cajón.</p>
+          <div class="time-label future">MAÑANA</div>
+          <p>Mañana <strong>seré</strong> más organizada. <strong>Estaré</strong> en casa por la mañana y <strong>tendré</strong> tiempo para preparar el desayuno. Por la noche, la cena <strong>será</strong> en el comedor y todos <strong>estaremos</strong> juntos.</p>
+        </article>
+        <div class="question-card">
+          <h3>Comprensión lectora</h3>
+          <label>1. ¿Dónde estuvo la narradora ayer?<textarea name="lectura_1" rows="2"></textarea></label>
+          <label>2. ¿Por qué estuvo contenta su hermana?<textarea name="lectura_2" rows="2"></textarea></label>
+          <label>3. ¿Qué objetos había sobre la mesa?<textarea name="lectura_3" rows="2"></textarea></label>
+          <label>4. ¿Dónde están los cubiertos hoy?<textarea name="lectura_4" rows="2"></textarea></label>
+          <label>5. ¿Qué tendrá tiempo de hacer mañana?<textarea name="lectura_5" rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <section class="section practice" id="practica">
+        <div class="section-heading"><span>06 · PRÁCTICA GUIADA</span><h2>Completa y comprueba</h2><p>Escribe la forma correcta de <strong>ser</strong>, <strong>estar</strong> o <strong>tener</strong>.</p></div>
+        <div class="fill-list" id="fill-list">
+          <label><span>1. Hoy yo</span><input autocomplete="off" data-answer="estoy" name="ejercicio_1"><span>en casa.</span></label>
+          <label><span>2. Ayer nosotros</span><input autocomplete="off" data-answer="tuvimos" name="ejercicio_2"><span>una cena especial.</span></label>
+          <label><span>3. Mi hermana</span><input autocomplete="off" data-answer="estuvo" name="ejercicio_3"><span>muy contenta durante la fiesta.</span></label>
+          <label><span>4. Mañana la cena</span><input autocomplete="off" data-answer="será" name="ejercicio_4"><span>en el comedor.</span></label>
+          <label><span>5. Ahora los cubiertos</span><input autocomplete="off" data-answer="están" name="ejercicio_5"><span>dentro del cajón.</span></label>
+          <label><span>6. La semana pasada ellos</span><input autocomplete="off" data-answer="estuvieron" name="ejercicio_6"><span>en Madrid.</span></label>
+          <label><span>7. Mañana vosotros</span><input autocomplete="off" data-answer="tendréis" name="ejercicio_7"><span>más tiempo.</span></label>
+          <label><span>8. En el futuro yo</span><input autocomplete="off" data-answer="seré" name="ejercicio_8"><span>más organizada.</span></label>
+          <label><span>9. Paula y Marco</span><input autocomplete="off" data-answer="son" name="ejercicio_9"><span>estudiantes.</span></label>
+          <label><span>10. Tú</span><input autocomplete="off" data-answer="tuviste" name="ejercicio_10"><span>mucha paciencia ayer.</span></label>
+        </div>
+        <button class="check" type="button" id="check-answers">Comprobar respuestas</button>
+        <p class="score" id="score" aria-live="polite"></p>
+      </section>
+
+      <section class="section cream transform-section">
+        <div class="section-heading dark"><span>07 · TRANSFORMACIÓN</span><h2>Viaja en el tiempo</h2><p>Reescribe cada frase en los otros dos tiempos.</p></div>
+        <div class="transform-grid">
+          <article><p><b>Hoy:</b> Estoy en el comedor y tengo hambre.</p><label>Ayer<textarea name="transformacion_1" rows="3"></textarea></label><label>Mañana<textarea name="transformacion_2" rows="3"></textarea></label></article>
+          <article><p><b>Ayer:</b> La mesa fue bonita y los vasos estuvieron en la bandeja.</p><label>Hoy<textarea name="transformacion_3" rows="3"></textarea></label><label>Mañana<textarea name="transformacion_4" rows="3"></textarea></label></article>
+          <article><p><b>Mañana:</b> Tendremos una cena y estaremos en la terraza.</p><label>Hoy<textarea name="transformacion_5" rows="3"></textarea></label><label>Ayer<textarea name="transformacion_6" rows="3"></textarea></label></article>
+        </div>
+      </section>
+
+      <section class="section production">
+        <div class="section-heading"><span>08 · PRODUCCIÓN ORAL</span><h2>Ayer, hoy y mañana</h2><p>Responde con frases completas y utiliza los tres verbos.</p></div>
+        <div class="speaking-columns">
+          <article><small>AYER</small><ol><li>¿Dónde estuviste?</li><li>¿Con quién estuviste?</li><li>¿Qué objetos tuviste cerca?</li><li>¿Cómo fue tu día?</li></ol></article>
+          <article><small>HOY</small><ol><li>¿Dónde estás?</li><li>¿Cómo estás?</li><li>¿Qué tienes cerca de ti?</li><li>¿Cómo es la habitación?</li></ol></article>
+          <article><small>MAÑANA</small><ol><li>¿Dónde estarás?</li><li>¿Qué tendrás que hacer?</li><li>¿Cómo será tu día?</li><li>¿Estarás en casa para cenar?</li></ol></article>
+        </div>
+      </section>
+
+      <section class="section final-writing">
+        <div class="section-heading"><span>09 · DESAFÍO FINAL</span><h2>Una mesa en tres tiempos</h2><p>Describe una comida de ayer, la mesa de hoy y una cena de mañana.</p></div>
+        <div class="requirements"><span>✓ ser</span><span>✓ estar</span><span>✓ tener</span><span>✓ pasado</span><span>✓ presente</span><span>✓ futuro</span><span>✓ 5 objetos de la mesa</span></div>
+        <label class="writing-label">Tu texto<textarea name="produccion_final" rows="11" placeholder="Escribe aquí..." required></textarea></label>
+        <button class="submit" type="submit">Enviar actividad <span>→</span></button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </section>
+    </form>
+  </main>
+
+  <dialog id="poster-dialog"><button type="button" id="close-poster" aria-label="Cerrar">×</button><img src="assets/vocabulario-la-mesa-yv-espanol.png" alt="Infografía ampliada del vocabulario de la mesa"></dialog>
+  <footer><img src="assets/logobranca.png" alt="YV Español"><p>From understanding to speaking.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
